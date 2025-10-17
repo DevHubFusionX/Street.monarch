@@ -46,7 +46,7 @@ const LoadingScreen = ({ onLoadingComplete }) => {
       <div className="text-center relative z-10 px-4">
         {/* Animated Logo */}
         <div className="mb-8 md:mb-12 animate-pulse">
-          <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white mb-4 leading-tight break-words">
             STREET<span className="text-red-500">MONARCH</span>
           </h1>
           <div className="flex justify-center gap-2">
